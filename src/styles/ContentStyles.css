@@ -1,0 +1,207 @@
+*{
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.content_parent_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.project_and_studio_item_container {
+    width: 950px;
+    height: 220px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9d9d9;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.project_and_studio_title {
+    width: 100%;
+    height: 35px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 10px 10px 0 0;
+    background-color: #f2f2f2;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project_and_studio_title h2{
+    color: #4d97ff;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    margin-top: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.project_and_studio_title h1{
+    color: #575e75;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.project_and_studio_items_viewer_container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project_and_studio_items_viewer_container img{
+    width: 30px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.project_and_studio_items_viewer_container img:hover{
+  filter: brightness(80%);
+}
+
+
+.project_and_studio_item_viewer {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.project_item_container {
+    width: 150px;
+    min-width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.project_item_container div {
+    display: flex;
+    font-size: 10px;
+    height: 22px;
+    width: 160px;
+    gap: 5px;
+    margin-top: -8px;
+    color: #575e75;
+    opacity: 90%;
+    overflow-x: hidden;
+}
+
+.project_item_container div img {
+    width: 15px;
+    height: 15px;
+}
+
+.studio_item_container {
+    width: 200px;
+    min-width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.studio_item_container h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #4d97ff;
+    font-size: 15px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    cursor: pointer;
+    line-height: 18px;
+    
+}
+.studio_item_container h1:hover {
+    color: hsl(215, 71%, 56%);
+}
+
+.studio_item_container img{
+    width: 100%;
+    height: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.studio_item_container img:hover{
+    filter: brightness(100%);
+}
+
+.project_item_container h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #4d97ff;
+    font-size: 15px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    cursor: pointer;
+    line-height: 18px;
+}
+.project_item_container h1:hover {
+    color: #4082de;
+}
+
+.project_item_container h2:hover{
+    color: #4082de;
+}
+
+
+.project_item_container h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #4d97ff;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    line-height: 15px;
+    margin-top: -10px;
+    display: block;
+}
+
+.project_item_container img{
+    width: 100%;
+    height: 112px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.project_item_container img:hover{
+    filter: brightness(100%);
+}
+
+@media (max-width: 1000px) { 
+
+    .project_and_studio_item_container {
+        width: 600px;
+    }
+    .project_item_container {
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .project_and_studio_item_container {
+        width: 400px;
+    }
+
+}

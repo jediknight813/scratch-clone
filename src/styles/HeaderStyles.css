@@ -7,7 +7,6 @@
 .header_parent_container {
     width: 100%;
     height: auto;
-    position: absolute;
     display: flex;
     flex-direction: column;
 }
@@ -19,8 +18,9 @@
     align-items: center;
     height: 51px;
     justify-content: center;
+    position: fixed;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    position: static;
+    z-index: 5;
 }
 
 .header_navbar_center_items_container {

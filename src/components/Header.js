@@ -32,6 +32,8 @@ function Header() {
                 </div>
             </div>
 
+            <div style={{"width": "100%", "height": "51px"}}> </div>
+
             <div id="donate_container" className="header_donate_container">
 
                 <div>
