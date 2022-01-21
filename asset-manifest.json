@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scratch-clone/static/css/main.1ea0c1af.css",
+    "main.js": "/scratch-clone/static/js/main.f54623fb.js",
+    "index.html": "/scratch-clone/index.html",
+    "main.1ea0c1af.css.map": "/scratch-clone/static/css/main.1ea0c1af.css.map",
+    "main.f54623fb.js.map": "/scratch-clone/static/js/main.f54623fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ea0c1af.css",
+    "static/js/main.f54623fb.js"
+  ]
+}
