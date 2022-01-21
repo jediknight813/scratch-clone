@@ -1,6 +1,6 @@
 *{
     margin-top: 0px;
-    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
@@ -348,6 +348,27 @@
 
     .explore_button {
         display: none;
+    }
+
+    .header_donate_container {
+        height: 120px;
+    }
+
+    .header_donate_container button{
+        margin-right: 70px;
+        min-width: 70px;
+    }
+
+    .header_donate_container img{
+        width: 50px;
+    }
+
+    .header_donate_container p {
+        color: white;
+        font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-top: 13px;
     }
 
 

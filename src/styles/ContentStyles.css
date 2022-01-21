@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow-y: hidden;
 }
 
 .project_and_studio_title h2{
@@ -93,13 +94,12 @@
 .project_item_container div {
     display: flex;
     font-size: 10px;
-    height: 22px;
+    height: 28px;
     width: 160px;
     gap: 5px;
     margin-top: -8px;
     color: #575e75;
     opacity: 90%;
-    overflow-x: hidden;
 }
 
 .project_item_container div img {
@@ -202,6 +202,10 @@
 @media (max-width: 750px) {
     .project_and_studio_item_container {
         width: 400px;
+    }
+
+    .project_and_studio_title h1{
+        font-size: 0.8rem;
     }
 
 }

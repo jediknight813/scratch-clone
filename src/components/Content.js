@@ -361,7 +361,6 @@ function Content() {
             
 
         </div>
-            <h1 style={{"position": "absolute", "marginTop": "2900px"}}> nothing to see here </h1>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <div style={{"marginLeft": "0", "marginTop": "0", "display": "flex", "flexDirection": "column", "width": "100.5%", "height": "100%"}}> 
+    <div style={{"marginLeft": "0", "marginTop": "0", "display": "flex", "flexDirection": "column", "width": "100vw", "height": "100%"}}> 
         <Header />
         <Content />
         <Footer />
