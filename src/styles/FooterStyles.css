@@ -54,6 +54,11 @@
     color: #4d97ff;
 }
 
+.footer_text_container a:hover{
+    color: #3166b0;
+}
+
+
 
 .footer_link_items {
     display: flex;
